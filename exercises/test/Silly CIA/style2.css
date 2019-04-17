@@ -1,0 +1,39 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen;
+    text-align: center;
+    font-size: 30pt;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 27pt;
+
+}
+img{
+    float: left;
+    padding: 25pt;
+    height: 300pt;
+    width: 300pt;
+
+}
+.main{
+    line-height: 25pt;
+    padding: 25pt;
+    font-size: 20pt;
+}
+ul{
+    font-size: 20pt;
+    line-height: 25pt;
+}
+.uppercase{
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+.txt{
+    font-size: 20pt;
+}
+.txt:hover{
+    text-decoration: none;
+    text-decoration: underline;
+}
