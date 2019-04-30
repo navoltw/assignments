@@ -1,0 +1,129 @@
+*{
+    margin: 0pt;
+    /* box-sizing: border-box; */
+    font-size: 0pt;
+}
+body{
+    background-color:palegoldenrod;
+    margin: 10pt;
+}
+.france > div{
+    background-color: white;
+    height: 200pt;
+    width: 140pt;
+    /* display: flex;
+    flex-direction: column; */
+}
+.france > div.f1{
+    background-color: blue;
+}
+.france > div.f2{
+    background-color: white;
+}
+.france > div.f3{
+    background-color: red
+}
+.france{
+    display: flex;
+    margin: 4pt;
+}
+
+.germany > div{
+    background-color: white;
+    height: 75pt;
+    width: 420pt;
+    /* display: flex; */
+}
+.germany > div.g1{
+    background-color: black;
+}
+.germany > div.g2{
+    background-color: red;
+}
+.germany > div.g3{
+    background-color: orange;
+}
+.germany{
+    display: inline;
+    margin: 6pt;
+}
+
+ .madagascar > .m1{
+    background-color: white;
+    height: 200pt;
+    width: 400pt;
+ }
+.madagascar > .m1{
+    background-color: white;
+    display: block;
+    
+    
+}
+/* .madagascar > div.m2{
+    background-color: red;
+    
+}
+.madagascar > div.m3{
+    background-color: green;
+    
+    
+} */
+
+.madagascar{
+    display: flex;
+    margin: 6pt
+}
+div > .box{
+    background-color: white;
+    height: 100pt;
+    width: 400pt;
+}
+.box{
+    display: inline;
+}
+div > .box{
+    background-color: green;
+  
+}
+div > .box{
+    background-color: red;
+    
+}
+
+
+/* .madagascar > div{
+    background-color: white;
+    
+ }
+.madagascar > div.m1{
+    background-color: white;
+    height: 200pt;
+    width: 150pt;
+}
+.madagascarTwo > div{
+    
+}
+.madagascarTwo > div.m2{
+    background-color: red;
+    height: 100pt;
+    width: 298pt;
+}
+.madagascarTwo > div.m3{
+    background-color: green;
+    height: 100pt;
+    width: 298pt;
+        
+}
+
+.madagascar{
+    display: flex;
+    margin: 6pt 0pt 0pt 0pt;
+}
+.madagascarTwo{
+    display: row;
+    float: right;
+    
+}
+.madagascar.madagascarTwo{
+    display: flex;
+} */

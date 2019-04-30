@@ -2,7 +2,7 @@ h1{
     color: darkgreen;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
     font-size: 50px;
 }
 
@@ -20,7 +20,8 @@ img{
 body{
     line-height: 25px;
     font-size: 25px;
-    padding: 140px;
+    margin: 0pt 15pt 0pt 15pt;
+    
 }
 a{
     text-decoration: none;

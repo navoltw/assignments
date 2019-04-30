@@ -1,0 +1,35 @@
+section{
+    padding-top: 30pt;
+    min-height: 100vh;
+    grid-gap: 2pt;
+    background: #777;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-auto-rows: 200pt;
+}
+
+.row-one{
+    background: #f0f0f0;
+    font-size: 15pt;
+}
+
+.row-two{
+    grid-column: span 4;
+    background: #0f0f0f;
+}
+
+.row-ex{
+    grid-column: span 8;
+    background: #444;
+}
+
+.row-four{
+    grid-column: span 6;
+    background: magenta;
+}
+
+.row-five{
+    grid-column:  1/-1;
+    background: #222;
+}

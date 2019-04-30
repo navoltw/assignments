@@ -1,0 +1,76 @@
+/* {
+    margin: 0;
+    font-size: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-size: 50pt; */
+/* } */ 
+
+/* example 1 */
+/* .box{
+    background: black;
+    border: solid pink 6pt;
+    width: 100pt;
+    height: 100pt;
+    width: 100%;
+   
+}
+.one{
+    background: palegreen;
+    position: fixed;
+    top: 0pt;
+}
+.four{
+    position: relative;
+    left: 25%;
+    z-index: -5;
+    background-color: blanchedalmond;
+
+} */
+
+/* example 2 */
+
+/* .box{
+    background: black;
+    border: solid black 6pt;
+    width: 200pt;
+    height: 200pt;
+   
+}
+.one{
+    background: palegreen;
+    position: fixed;
+    top: 0pt;
+}
+.child{
+    display: inline-block ;
+    width: 80pt;
+    height: 80pt;
+    background-color: thistle;
+    position: relative;
+    left: 50pt;
+    top: 0pt;
+} */
+
+
+/* navbar */
+
+body{
+    background: black;
+}
+
+.da-container{
+    display: flex;
+    background-color: palegreen;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.box{
+    font-size: 21pt;
+    color: black;
+}

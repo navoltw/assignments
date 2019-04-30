@@ -1,0 +1,12 @@
+Good morning everyone!  Quick optional warm up exercise:  
+Create a function which takes a single character and 
+prints out the 'Mario Steps', where the base is 5 chars long,
+ the next has a leading single space and then 4 charachters, 
+ and so on. (sorry if the spacing is off on the example below)
+
+ console.log(function(#)
+     #
+    ##
+   ###
+  ####
+ #####

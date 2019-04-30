@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 0;
+
+}
+
+body{
+    background: black;
+}
+.france{
+    background-color: white;
+    height: 300pt;
+    width: 420pt;
+    position: relative;
+    
+}
+/* .box{
+    margin: 0pt;
+    
+} */
+.f1{
+    background: blue;
+    height: 300pt;
+    width: 140pt;
+    
+}
+/* .f2{
+    background: white;
+    height: 300pt;
+    width: 140pt;
+} */
+/* .f3{
+    background: red;
+    height: 300pt;
+    width: 140pt; 
+    margin: -600pt 40pt 0pt 280pt;
+} */
+.f3{
+    background: red;
+    height: 300pt;
+    width: 140pt; 
+    margin: -300pt 40pt 0pt 280pt;
+}
+
+
+.germany{
+    background: white;
+    height: 300pt;
+    width: 420pt;
+    margin: 300pt;
+    display: flex;
+}

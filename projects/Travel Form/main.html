@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <form name="travelForm">
+        <input type="text" placeholder="First name" name="name">
+        <input type="text" placeholder="Last name" name="name">
+        <input type="number" placeholder="Age" name="age" >
+        <br>
+        <br>
+        <b>Gender</b><br>
+        Male<input type="radio" name="gender" value="male">
+        Female<input type="radio" name="gender"  value="female">
+        <br>
+        <br>
+        <b>Location</b><br>
+        Sweden <input type="checkbox" placeholder="Sweden" name="location" value="Sweden">
+        <br>
+        Japan <input type="checkbox" placeholder="Japan" name="location" value="Japan">
+        <br>
+        Korea <input type="checkbox" placeholder="Korea" name="location" value="Korea">
+        <br>
+        <br>
+        Vegetarian <input type="checkbox" name="diet" value ="Vegetarian">
+        <br>
+        Kosher <input type="checkbox"  name="diet" value ="Kosher">
+        <br>
+        Lactose free <input type="checkbox" name="diet" value ="Lactose">
+        <br>
+        <button type='submit'>Submit</button>
+
+        <div id="results"></div>
+
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>

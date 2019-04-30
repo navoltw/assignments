@@ -1,0 +1,38 @@
+ *{
+    font-size: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+} 
+body{
+    scroll-behavior: auto;
+    height: 300vh;
+}
+/* .box{
+    display: inline-block;
+    height: 100pt;
+} */
+.one{
+    background: whitesmoke;
+    width: 100%;
+    border: solid 5pt palegreen;
+    height: 100pt;
+    width: 100%;
+    font-size: 25pt;
+    color: black;
+    position: fixed;  
+}
+
+#click{
+    width: 100%;
+    height: 100pt;
+    border: 2px solid palegreen;
+
+}
+/* button{
+    height: 100pt;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    position: fixed;
+    font-size: 30pt;
+} */

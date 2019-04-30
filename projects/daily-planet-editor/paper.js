@@ -13,7 +13,7 @@ var enemies = ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
 function whoWins (isThereKryptonite, enemyName){
 if (isThereKryptonite){
-    return "Superman beats " +enemyName+ ", of course";
+    return "Superman beats " + enemyName + ", of course";
     }
 
 else{
@@ -21,7 +21,7 @@ else{
     }
         }
 
-for (var i  =0; i <enemies.length; i++){
+for (var i  = 0; i < enemies.length; i++){
     var isThereKryptonite;
     if (i % 2 === 0){
         isThereKryptonite = true;
@@ -50,4 +50,4 @@ while (clarkKent){
         superMan= true;
         console.log("Now I'm Superman!");
     }
-        }
+}

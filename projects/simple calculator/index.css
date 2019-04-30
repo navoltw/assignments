@@ -1,0 +1,38 @@
+*{
+    margin: 0pt;
+}
+header{
+    background-color: palegreen;
+    font-size: 42pt;
+    text-align: center;
+}
+body{
+    background-color: aqua;
+}
+footer{
+    background-color: crimson;
+    margin: 40pt 0pt 0pt 0pt;
+    font-size: 34pt;
+}
+.display > .button{
+    background-color:white;
+    text-align: center;
+    display: block;
+    font-size: 100pt;
+    
+}
+
+table{
+    width: 300pt;
+    height: 300pt;
+    background-color: khaki;
+    text-align: center;
+    display: inline-block;
+
+
+}
+.display{
+height: 75pt;
+width: 200pt;
+font-size: 30pt;
+}

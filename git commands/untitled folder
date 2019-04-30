@@ -1,0 +1,16 @@
+Git commands
+
+git status
+- lists the files that have been changed and those in the queue
+
+git add -A
+- adds all changes to the queue
+
+git commit -m   
+ - packages up all the changes made to your files
+ - don't forget to include a simple yet descriptive message of what
+   you've done since the last commit
+
+git push
+- pushes all of the changes to you repository into github's
+    servers.
