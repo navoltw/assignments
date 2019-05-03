@@ -84,7 +84,7 @@ const voters = [
 
 const youngVotes = voters.reduce((a, b, c, d) => {
     if (b.age < 20 ){
-        return 'young votes:'sum + b.value,
+        return 'young votes:' sum + b.value,
     }
 })
 

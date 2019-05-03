@@ -27,17 +27,17 @@
 //part 1
 const carrots = ["bright orange", "ripe", "rotten"]
 
-// const mapVegetables = carrots.map((a, b) => {
-//     return { type: "carrot", name: carrot }
-// })
-// console.log(mapVegetables)
-
-function mapVegetables(arr) {
-    return arr.map(function(carrot) {
-        return { type: "carrot", name: carrot }
-    })
-}
+const mapVegetables = carrots.map((el) => {
+    return el + { type: "carrot", name: carrot }
+})
 console.log(mapVegetables)
+
+// function mapVegetables(arr) {
+//     return arr.map(function(carrot) {
+//         return { type: "carrot", name: carrot }
+//     })
+// }
+
 
 
 

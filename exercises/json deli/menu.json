@@ -1,0 +1,86 @@
+{
+ "menu" : [
+{
+   "name" : "sandwiches",
+   "id" : "1",
+   "parentId": "-1"
+},
+{
+    "name" : "BLT",
+    "ingredients" : ["hoagie roll, bacon, lettuce, tomato"],
+    "description" : "Do you like bacon? If so you are in luck. what you see before you is the finest blt this side of the mississippi!",
+    "id" : "2",
+    "parentId" : "1"
+},{
+    "name" : "turkey and cheese",
+    "ingredients" : ["turkey, cheese, lettuce, tomato, provolone cheese"],
+    "description" : "a classic, a legend, the original game-changer",
+    "id" : "3",
+    "parentId" : "1"
+},{
+    "name" : "appetizers",
+    "id" : "4",
+    "parentId": "-1"
+},{
+    "name" : "Nachos",
+    "ingredients" : "chips, carne asada, jalapeno, salsa, melted cheese ",
+    "description" : "true happiness comes from within",
+    "id" : "5",
+    "parentId" : "4"
+},{
+    "name" : "loaded potatoes",
+    "ingredients" : "potatoes, bacon, cheese, sour cream, chives",
+    "description" : "It will make you a better person",
+    "id" : "6",
+    "parentId" : "4"
+},{
+    "name" : "hot sandwiches",
+    "id" : "7",
+    "parentId": "-1"
+},{
+    "name" : "Philly Special",
+    "ingredients" : ["flank steak, portobello mushroom caps, onion, green bell pepper, provolone cheese, grated Parmigiano-Reggiano cheese, hoagie rolls toasted"],
+    "description" : "sometimes you just get lucky, like when you stare do an awe-inspiring cheese-steak, today's your day friend",
+    "id" : "8",
+    "parentId" : "7"
+},{
+    "name" : "tri-tip sandwich",
+    "ingredients" : "tri-tip, cheese, bbq sauce, toasted roll",
+    "description" : "Live your best life one bite at a time",
+    "id" : "9",
+    "parentId" : "7"
+},{
+    "name" : "desserts",
+    "id" : "10",
+    "parentId": "-1"
+},{
+    "name" : "cheese cake",
+    "ingredients" : "cream cheese, gram-cracker crust, blueberry topping",
+    "description" : "oh so decadent",
+    "id" : "11",
+    "parentId" : "10"
+},{
+    "name" : "apple pie",
+    "ingredients" : "apples, cinnamon",
+    "description" : "the first of its name",
+    "id" : "12",
+    "parentId" : "10"
+},{
+    "name" : "drinks",
+    "id" : "13",
+    "parentId": "-1"
+},{
+    "name" : "old fashioned",
+    "ingredients" : "bourbon, bitters, simple sugar, orange zest",
+    "description" : "life is full disappointments, this will not be one of them ",
+    "id" : "14",
+    "parentId" : "13"
+},{
+    "name" : "manhattan",
+    "ingredients" : "whiskey, bitters, sweet vermouth,",
+    "description" : "the chosen one!",
+    "id" : "15",
+    "parentId" : "13"
+}
+]
+}
