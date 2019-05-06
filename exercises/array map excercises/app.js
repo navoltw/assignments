@@ -21,36 +21,36 @@
 
 
 //3
-const name = ["john", "JACOB", "jinGleHeimer", "schmidt"]
+// const name = ["john", "JACOB", "jinGleHeimer", "schmidt"]
 
-const nameUp = name.map(function toUpper(a){
-    return a.substring(0, 1).toUpperCase() + a.substring(1);
-})
-console.log(nameUp)
+// const nameUp = name.map(function toUpper(a){
+//     return a.substring(0, 1).toUpperCase() + a.substring(1);
+// })
+// console.log(nameUp)
 
 
-// const onlyOne = [
-//     {
-//         name: "Angelina Jolie",
-//         age: 80
-//     },
-//     {
-//         name: "Eric Jones",
-//         age: 2
-//     },
-//     {
-//         name: "Paris Hilton",
-//         age: 5
-//     },
-//     {
-//         name: "Kayne West",
-//         age: 16
-//     },
-//     {
-//         name: "Bob Ziroll",
-//         age: 100
-//     }
-// ]
+const onlyOne = [
+    {
+        name: "Angelina Jolie",
+        age: 80
+    },
+    {
+        name: "Eric Jones",
+        age: 2
+    },
+    {
+        name: "Paris Hilton",
+        age: 5
+    },
+    {
+        name: "Kayne West",
+        age: 16
+    },
+    {
+        name: "Bob Ziroll",
+        age: 100
+    }
+]
 //4
 // const mainChar = onlyOne.map(function alpha(a, b){
 //     if (a.age > 18){
@@ -76,8 +76,8 @@ console.log(nameUp)
     
 // })
 
-// const newChar = onlyOne.map((el) => {
-//     return ("<h1>"+el.name+"</h1>" + "<h2>"+el.name+"</h2>")
-// })
+const newChar = onlyOne.map((el) => {
+    return ("<h1>"+el.name+"</h1>" + "<h2>"+el.age+"</h2>")
+})
 
-// console.log(newChar)
+console.log(newChar)

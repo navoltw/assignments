@@ -2,11 +2,11 @@
 
 const arr = [3, 6, 8, 2]
 
-//1
-// const fiveG = arr.filter((a, b) => { 
-//     return a > 5
-// })
-// console.log(fiveG)
+1
+const fiveG = arr.filter((a, b) => { 
+    return a > 5
+})
+console.log(fiveG)
 
 //2
 const evenNum = arr.filter((a, b) => {

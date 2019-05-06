@@ -1,4 +1,4 @@
-const num = [1,2,3]
+// const num = [1,2,3]
 
 //a = accumulator
 //b = currentValue
@@ -12,13 +12,16 @@ const num = [1,2,3]
 // })
 // console.log(num1)
 
-const numOne = num.reduce((a, b, c, d) => a + b)
-console.log(numOne)
+// const numOne = num.reduce((a, b, c, d) => a + b)
+// console.log(numOne)
+
+// const numOne = num.reduce((a, b, c, d) => d.join(""))
+// console.log(numOne)
 
 
 //2
-const num2 = num.reduce((accumulator, currentValue, index, array) => accumulator.concat(currentValue), [])
-console.log(num2)
+// const num2 = num.reduce((accumulator, currentValue, index, array) => accumulator.concat(currentValue), [])
+// console.log(num2)
 
 //3
 
@@ -43,27 +46,27 @@ console.log(num2)
 
 //4
 
-const wishlist = [
-    { title: "Tesla Model S", price: 90000 },
-    { title: "4 carat diamond ring", price: 45000 },
-    { title: "Fancy hacky Sack", price: 5 },
-    { title: "Gold fidgit spinner", price: 2000 },
-    { title: "A second Tesla Model S", price: 90000 }
-]
+// const wishlist = [
+//     { title: "Tesla Model S", price: 90000 },
+//     { title: "4 carat diamond ring", price: 45000 },
+//     { title: "Fancy hacky Sack", price: 5 },
+//     { title: "Gold fidgit spinner", price: 2000 },
+//     { title: "A second Tesla Model S", price: 90000 }
+// ]
 
-const dreamsTrue = wishlist.reduce((a, b, c, d) =>  a + b.price,0)
+// const dreamsTrue = wishlist.reduce((a, b, c, d) =>  a + b.price,0)
 
-console.log(dreamsTrue)
+// console.log(dreamsTrue)
 
 //5
-const arrays = [
-    ["1", "2", "3"],
-    [true],
-    [4, 5, 6]
-]
+// const arrays = [
+//     ["1", "2", "3"],
+//     [true],
+//     [4, 5, 6]
+// ]
 
-const arr = arrays.reduce((a, b, c, d) => a.concat(b))
-console.log(arr)
+// const arr = arrays.reduce((a, b, c, d) => a.concat(b))
+// console.log(arr)
 
 //6
 
@@ -83,9 +86,15 @@ const voters = [
 ]
 
 const youngVotes = voters.reduce((a, b, c, d) => {
-    if (b.age < 20 ){
-        return 'young votes:' sum + b.value,
-    }
-})
+    if (a[b.age] <= 18 && a[b.age] >= 25);
+    //If b.age fits some criteria, then a.keyName. push b
+//a[b.age] = a[b.age] + 1 || 1;
+   return a;
+}, {
+    //Set some default key categories with empty arrays
+});
 
 console.log(youngVotes)
+
+//    if (a[b.age ] <= 18 && a[b.age] >= 25){
+//    }
