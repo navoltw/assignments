@@ -1,0 +1,20 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header{
+    background: palegreen;
+    color: black;
+    font-size: 45pt;
+    border-bottom-color: goldenrod 5pt;
+    text-align: center;
+}
+.container1{
+    font-size: 25pt;
+    text-emphasis: bold;
+    text-shadow: 7pt palegreen;
+    margin: 0 20pt 0 20pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3pt black solid;
+}

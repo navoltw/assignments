@@ -7,7 +7,7 @@ JK. Welcome to the Thunderdome.
 In the words of Fred Rodger stay strapped or get clapped  `)
 
 console.log("\n-----------------------------------------------------------------------")
-let username = ask.question (`So who might you be, do not be shy, you are here to make a difference:  `)
+let username = ask.question (`\nSo who might you be, do not be shy, you are here to make a difference:  `)
 
 
 function Player (name){
@@ -61,10 +61,10 @@ console.log("-------------------------------------------------------------------
 
     let enemy = enemies[Math.floor(Math.random() *enemies.length)];
         console.log(`\t# ${enemy} has appeared! \n`);
-    while  (enemyHealth > 0){
+    while  (enemy.hp > 0){
         
 
-        if (health < 1){
+        if (player.hp < 1){
             console.log("\t> The damage you have taken is to sever, you cannot continue. ");
                 break;
         }else if (action === 'd'){

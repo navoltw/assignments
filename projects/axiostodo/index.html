@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="header">To Do List</div>
+    </header>       
+    <br><br>
+    <form name="addTodo">
+      <input type="text" placeholder="title" name="title">
+      <input type="text" placeholder="description" name="description">
+      <input type="number" placeholder="price" name="price">
+      <input type="text" name="imgurl" placeholder="image url">
+      <button>submit</button>
+    </form>
+
+    <div class="container1">
+    <div id="main"></div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

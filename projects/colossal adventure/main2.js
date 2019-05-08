@@ -48,11 +48,11 @@ In the words of Fred Rodger stay strapped or get clapped  `)
 while(running){
     console.log("-------------------------------------------------------------");
 
-    
+
     let enemy = enemies[Math.floor(Math.random() *enemies.length)];
-    console.log("\t# " + enemy + "has appeared! #\n");
+    console.log(`\t# ${enemy} has appeared! \n`);
     
-    while (enemyHealth > 0){
+    while (enemy.hp > 0){
         console.log("\tYour HP:" + health)
         console.log("\t" + enemy +"'s HP:" + enemyHealth);
         console.log("\n\tHow would you like to proceed")
@@ -73,9 +73,9 @@ while(running){
             console.log(`${enemy.name} hit ${player.name}. \n${player.name}'s hp is now ${player.hp} \n ${enemy.name}'s hp is now ${enemy.hp}`)
             
             if (health < 1){
-                console.log("\t> The damage you have taken is to sever, you cannot continue. ");
+                console.log('\t> The damage you have taken is to sever, you cannot continue. ');
                 break;
-            }else if (input .equals("2")){
+            }else if (hp.equals("2")){
                 if (numHealthPotions > 0) {
                     health += HealthPotionHealAmount;
                     numHealthPotions--;

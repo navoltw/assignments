@@ -15,7 +15,12 @@ form.addEventListener('submit', function(e){
     }if (form.elements['lactose'].checked) {
         diet.push(Document.getElementById('lactose').value);
     }
-    alert("first-name: " + firstName + " last-name: " + lastName + " age: " + age + " gender: " + gender + " travel location: " + location + " diet: " + diet);
+    alert(`first name: ${firstName}
+    last name: ${lastName}
+    age: ${age}
+    gender: ${gender}
+    location: ${travel-location}
+    diet: ${diet}`);
 })
 
 

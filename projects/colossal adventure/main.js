@@ -51,7 +51,7 @@ while(running){
             if (health < 1){
                 console.log("\t> The damage you have taken is to sever, you cannot continue. ");
                 break;
-            }else if (input.equals("2")){
+            }else if (input .equals("2")){
                 if (numHealthPotions > 0) {
                     health += HealthPotionHealAmount;
                     numHealthPotions--;
@@ -63,6 +63,7 @@ while(running){
                 }
             }else if (input.equal("3")){
                 console.log("\t you have chosen to flee from " + enemy + "!");
+
             }else {
                 console.log("\tInvalid command!")
             }
