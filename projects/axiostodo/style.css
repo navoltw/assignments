@@ -2,19 +2,40 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-
+body{
+    background-color: whitesmoke;
+}
 header{
     background: palegreen;
     color: black;
     font-size: 45pt;
-    border-bottom-color: goldenrod 5pt;
+    border-bottom-color: goldenrod 5pt solid;
     text-align: center;
 }
-.container1{
-    font-size: 25pt;
+/* .container1{
+    display: grid;
+    font-size: 20pt;
     text-emphasis: bold;
     text-shadow: 7pt palegreen;
-    margin: 0 20pt 0 20pt;
+    margin: 10pt 20pt 0 20pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 3pt black solid;
+    grid-gap: 10PT
+} */
+form{
+    display: grid;
+    width: 20%;
+}
+.todoBox{
+    display: grid;
+    grid-template-columns:  100pt 100pt 300pt;
+    grid-gap: 10pt;
+    margin: 5pt 20pt 5pt 20pt;
+    background-color: palegreen;
+    border: 3pt solid black;
+}
+
+.todoBox .h2{
+    font-size: 20pt;
+
 }
