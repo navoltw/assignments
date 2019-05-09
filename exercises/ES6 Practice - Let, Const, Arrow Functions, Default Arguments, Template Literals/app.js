@@ -82,13 +82,13 @@ const multiply = (numOne, numTwo) => {return numOne * numTwo};
 console.log(6 * 6)
 
 //4
-function Player(){
-    this.firstName = Jane;
-    this.lastName = Doe;
-    this.age = 100
-}
+// function Player(){
+//     this.firstName = Jane;
+//     this.lastName = Doe;
+//     this.age = 100
+// }
 
-console.log(`Hi ${player.firstName} ${player.lastName}, how does it feel to be ${player.age}`)
+// console.log(`Hi ${player.firstName} ${player.lastName}, how does it feel to be ${player.age}`)
 
 
 
