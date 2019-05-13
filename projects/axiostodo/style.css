@@ -25,17 +25,32 @@ header{
 form{
     display: grid;
     width: 20%;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .todoBox{
     display: grid;
-    grid-template-columns:  100pt 100pt 300pt;
+    
     grid-gap: 10pt;
     margin: 5pt 20pt 5pt 20pt;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: palegreen;
     border: 3pt solid black;
+    image-orientation: fixed;
+
 }
 
 .todoBox .h2{
     font-size: 20pt;
 
+}
+
+
+@media(max-width: 350px){
+    header,
+    .todoBox,
+    form,{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
 }

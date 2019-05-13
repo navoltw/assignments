@@ -74,12 +74,12 @@
 
 //part one
 
-const add = (numOne, numTwo) => {return numOne + numTwo};
+// const add = (numOne, numTwo) => {return numOne + numTwo};
 
-console.log(3 + 4)
+// console.log(3 + 4)
 
-const multiply = (numOne, numTwo) => {return numOne * numTwo};
-console.log(6 * 6)
+// const multiply = (numOne, numTwo) => {return numOne * numTwo};
+// console.log(6 * 6)
 
 //4
 // function Player(){
@@ -88,8 +88,49 @@ console.log(6 * 6)
 //     this.age = 100
 // }
 
-// console.log(`Hi ${player.firstName} ${player.lastName}, how does it feel to be ${player.age}`)
+// let firstName = `Jane`
+// let lastName = `Doe`
+// let age = `100`
+
+// function name (){
+//     // return (`Hi ${firstName} ${lastName}, how does it feel to be ${age}`)
+// }
+
+// console.log(`Hi ${firstName} ${lastName}, how does it feel to be ${age}`)
 
 
 
 //5
+
+const animals = [
+    {
+        type: "dog",
+        name: "theodore"
+    },
+    {
+        type: "cat",
+        name: "whiskers"
+    },
+    {
+        type: "pig",
+        name: "piglette"
+    },
+    {
+        type: "dog",
+        name: "sparky"
+    }
+ ];
+ 
+ function filterForDogs(arr) {
+     return arr.filter(animal => {
+         if (animal.type === "dog") {
+             return true
+         } else {
+             return false
+         }
+     })
+ }
+ 
+ const goodDogs = animals.filter((a, b) => {return a.type === 'dog'})
+
+ console.log(goodDogs)

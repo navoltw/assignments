@@ -104,6 +104,11 @@ body{
   .day{
    float: left
   }
+  u{
+    border-bottom: 1px dotted rgb(44, 71, 71);
+    text-decoration: none;
+    text-underline-position: under;
+  }
 
   /* Services */
   ul#services li{

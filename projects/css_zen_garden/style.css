@@ -1,0 +1,103 @@
+/* @font-face{
+    font-family: 'verdemoderna';
+    src: url(./fonts/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsXy6KHHg.woff2)
+} */
+
+
+*{
+    margin: 0;
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    color: #325050;
+    background: #fff;
+    font: 15px/1.5 arial;
+
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+header {
+    height: 240px; 
+    padding: 20px 0 70px 0;
+    background: #2d6360 50% 0 url(images\huntington.jpg/) no-repeat;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-image: url(images/contours.png), url(images/noise.png), url(images/gridlines.png), url(images/huntington.jpg);
+    /* z-index: 4, 3, 2, 1; */
+    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+    background-repeat: repeat, repeat, repeat,no-repeat;
+    background-size: auto, auto, auto, cover;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    display: block;
+    padding-top: o;
+    padding-bottom: 5pt;
+    border-bottom: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 3.2em;
+}
+
+h2{
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 35px;
+    color: rgba(255, 255, 255, .6);
+    font-style: italic;
+    font-size: 3.2 em
+}
+
+h1, h2 {
+    padding: 0 10%;
+    color: #fff;
+}
+
+h3{
+    margin: 2em 0 0 0;
+    color: rgb(40, 63, 67);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.intro a{
+    position: relative;
+    display: inline-block;
+    margin: 1px 10px 1px -6px;
+    border-radius: 1px;
+    color: #809b7e;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+main{
+
+}
+
+p {
+    font-size: 1em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color: rgb(47, 74, 74)
+}
+
+
+@media (max-width: 1132px){
+    header,{
+        border-top: solid 10px rgba(19, 67, 71, .9)
+    }
+}
+
+@media(max-width: 500px){
+    header,{
+        height: 250px;
+        padding-top: 0;
+    }
+}
