@@ -38,7 +38,7 @@ for(let i = 0; i < matrix.length; i++){
     }
     
 }
-------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------
 //4
 // use the code below to answer the remaining questions
 
@@ -48,12 +48,12 @@ function person(name, isAlive, hairColor){
     this.hairColor = hairColor;
 }
  //5
-what type of function is this?
+// what type of function is this?
 
 answer === constructor
 
 //6
-instantiate this function as if it were you
+// instantiate this function as if it were you
 
 const me = newPerson('Wayne', true, 'blonde')
 
