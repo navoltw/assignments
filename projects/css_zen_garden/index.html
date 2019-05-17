@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="fonts/verdemoderna.woff">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 </head>
@@ -74,7 +74,7 @@
                 <p>
                     Strong visual design has always been our focus. You are modifying this 
                     page, so strong <abbr title="Cascading Style Sheets">CSS</abbr> skills are necessary too, but the example files are 
-                    commented well enough that even <abbr title="Cascading Style Sheets">CSS</abbr> CSS novices can use them as starting 
+                    commented well enough that even <abbr title="Cascading Style Sheets">CSS</abbr> novices can use them as starting 
                     points. Please see the <a href="#">CSS Resource Guide</a> for advanced tutorials and 
                     tips on working with <abbr title="Cascading Style Sheets">CSS</abbr>.
                 </p>
@@ -140,11 +140,94 @@
                         others may learn from your work.
                 </p>
             </div>
-            <footer></footer>
+            <footer style="font-family:">
+                    <a href="#">HTML</a>
+                    <a href="#">CSS</a>
+                    <a href="#">CC</a>
+                    <a href="#">A11y</a>
+                    <a href="#">GH</a>
+            </footer>
         </div>
-        <aside class="sidebar">
-
-        </aside>
+        <aside class="sidebar" role="complementary">
+                <div class="wrapper">
+        
+                    <div class="design-selection" id="design-selection">
+                        <h3 class="select">Select a Design:</h3>
+                        <nav role="navigation">
+                            <ul>
+                                <li>
+                                <a href="#" class="design-name">Mid Century Modern</a> by <a href="#" class="designer-name">Andrew Lohman</a>
+                                </li>					
+                                <li>
+                                    <a href="#" class="design-name">Garments</a> by	<a href="#" class="designer-name">Dan Mall</a>
+                                </li>					
+                                <li>
+                                    <a href="#" class="design-name">Steel</a> by <a href="#" class="designer-name">Steffen Knoeller</a>
+                                </li>					
+                                <li>
+                                    <a href="#" class="design-name">Apothecary</a> by <a href="#" class="designer-name">Trent Walton</a>
+                                </li>					
+                                <li>
+                                    <a href="#" class="design-name">Screen Filler</a> by <a href="#" class="designer-name">Elliot Jay Stocks</a>
+                                </li>					
+                                <li>
+                                    <a href="#" class="design-name">Fountain Kiss</a> by <a href="#" class="designer-name">Jeremy Carlson</a>
+                                </li>					
+                                <li>
+                                    <a href="#" class="design-name">A Robot Named Jimmy</a> by <a href="#" class="designer-name">meltmedia</a>
+                                </li>					
+                                <li>
+                                    <a href="#" class="design-name">Verde Moderna</a> by <a href="#" class="designer-name">Dave Shea</a>
+                                </li>					
+                            </ul>
+                        </nav>
+                    </div>
+        
+                    <div class="design-archives" id="design-archives">
+                        <h3 class="archives">Archives:</h3>
+                        <nav role="navigation">
+                            <ul>
+                                <li class="next">
+                                    <a href="#">
+                                        Next Designs <span class="indicator">&rsaquo;</span>
+                                    </a>
+                                </li>
+                                <li class="viewall">
+                                    <a href="#" title="View every submission to the Zen Garden.">
+                                        View All Designs</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+        
+                    <div class="zen-resources" id="zen-resources">
+                        <h3 class="resources">Resources:</h3>
+                        <ul>
+                            <li class="view-css">
+                                <a href="#" title="View the source CSS file of the currently-viewed design.">
+                                    View This Design&#8217;s <abbr title="Cascading Style Sheets">CSS</abbr></a>
+                            </li>
+                            <li class="css-resources">
+                                <a href="#" title="Links to great sites with information on using CSS.">
+                                    <abbr title="Cascading Style Sheets">CSS</abbr> Resources</a>
+                            </li>
+                            <li class="zen-faq">
+                                <a href="#" title="A list of Frequently Asked Questions about the Zen Garden.">
+                                    <abbr title="Frequently Asked Questions">FAQ</abbr></a>
+                            </li>
+                            <li class="zen-submit">
+                                <a href="#" title="Send in your own CSS file.">
+                                    Submit a Design	</a>
+                            </li>
+                            <li class="zen-translations">
+                                <a href="#" title="View translated versions of this page.">
+                                    Translations</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        
     </div>
 </body>
 </html>
