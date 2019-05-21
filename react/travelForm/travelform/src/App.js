@@ -5,7 +5,7 @@ import Form from './Form'
 const App = () => {
     return(
         <>
-            <form />
+            <Form />
         </>
     )
 }
