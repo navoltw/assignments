@@ -1,12 +1,12 @@
 import React from 'react';
 import './styles.css';
-import colorbox from './colorbox'
+import Colorbox from './Colorbox'
 
 const App = () => {
     return(
 
         <div>
-            <ColorBox/>
+            <Colorbox />
         </div>
     )
 }

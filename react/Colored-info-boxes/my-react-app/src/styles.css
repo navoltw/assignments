@@ -7,3 +7,12 @@
     background: burlywood;
     height: 100vh;
 }
+
+.infobox-container {
+    background-color: palegreen;
+    border: solid 3pt black;
+    text-align: center;
+    width: 25%;
+    margin: 10pt;
+    display: inline-block;
+}

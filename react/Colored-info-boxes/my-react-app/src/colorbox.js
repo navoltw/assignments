@@ -1,6 +1,7 @@
 import React from 'react';
+import styles from './styles.css'
 
-const Colorbox = () => {
+const colorBox = () => {
     return(
         <div className='infobox-container'>
             <div>Title</div>
@@ -13,3 +14,5 @@ const Colorbox = () => {
     )
 
 }
+
+export default colorBox;
