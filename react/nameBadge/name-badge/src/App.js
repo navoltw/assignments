@@ -7,7 +7,7 @@ import './styles.css'
 const App = () => {
     return ( 
         <>
-            
+            <Box />
         </>
 
      );

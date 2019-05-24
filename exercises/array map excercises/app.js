@@ -29,28 +29,28 @@
 // console.log(nameUp)
 
 
-const onlyOne = [
-    {
-        name: "Angelina Jolie",
-        age: 80
-    },
-    {
-        name: "Eric Jones",
-        age: 2
-    },
-    {
-        name: "Paris Hilton",
-        age: 5
-    },
-    {
-        name: "Kayne West",
-        age: 16
-    },
-    {
-        name: "Bob Ziroll",
-        age: 100
-    }
-]
+// const onlyOne = [
+//     {
+//         name: "Angelina Jolie",
+//         age: 80
+//     },
+//     {
+//         name: "Eric Jones",
+//         age: 2
+//     },
+//     {
+//         name: "Paris Hilton",
+//         age: 5
+//     },
+//     {
+//         name: "Kayne West",
+//         age: 16
+//     },
+//     {
+//         name: "Bob Ziroll",
+//         age: 100
+//     }
+// ]
 //4
 // const mainChar = onlyOne.map(function alpha(a, b){
 //     if (a.age > 18){
@@ -76,8 +76,26 @@ const onlyOne = [
     
 // })
 
-const newChar = onlyOne.map((el) => {
-    return ("<h1>"+el.name+"</h1>" + "<h2>"+el.age+"</h2>")
+// const newChar = onlyOne.map((el) => {
+//     return ("<h1>"+el.name+"</h1>" + "<h2>"+el.age+"</h2>")
+// })
+
+// console.log(newChar)
+const arr = [ 2, 5, 3, 3, 35, 38 ];
+const addSub10 = arr.map((num) => {
+    if(num <= 10){
+        return num + 10
+     } else {
+        return num - 10
+     }
+
 })
 
-console.log(newChar)
+console.log( addSub10 )
+
+
+function myFunc(...items){
+    let myArr = items;
+    return myArr;
+}
+console.log(myFunc(1, 2, 3, 4, 5))
