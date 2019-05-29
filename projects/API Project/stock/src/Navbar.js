@@ -5,8 +5,14 @@ import './styles.css'
 const Navbar = () => {
     return(
         <div className='header'>
-            <link rel="stylesheet" href="">About</link>
-            <link rel="stylesheet">Home</link>
+            <h1><span class='highlight'>Tings</span>To Do</h1>
+            <nav>
+                <ul>
+                <link rel="stylesheet">Home</link>
+                <link rel="stylesheet">Tings</link>
+                <link rel="stylesheet">About</link>
+                </ul>
+            </nav>
         </div>
     )
 }

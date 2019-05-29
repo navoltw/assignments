@@ -3,6 +3,15 @@
     font-size: 0;
 }
 
-.Navbar{
-    
+header{
+    background: #35424A;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: magenta 3px solid;
+}
+
+header .hightlight, header .current a{
+    color: magenta;
+    font-weight: bold;
 }
