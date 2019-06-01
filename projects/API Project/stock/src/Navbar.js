@@ -8,9 +8,9 @@ const Navbar = () => {
             <h1><span class='highlight'>Tings</span>To Do</h1>
             <nav>
                 <ul>
-                <link rel="stylesheet">Home</link>
-                <link rel="stylesheet">Tings</link>
-                <link rel="stylesheet">About</link>
+                <Link to='/Home'>Home</Link>
+                <Link to='/Tings'>Tings</Link>
+                <Link to='/About'>About</Link>
                 </ul>
             </nav>
         </div>
