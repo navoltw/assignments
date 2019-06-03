@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import axios from './axios'
+import axios from 'axios'
+
 const ActivityContext = React.createContext()
 
 
@@ -27,20 +28,20 @@ class ServiceProvider extends Component {
 
     render() {
         return (
-            <ActivityContext.ServiceProvider
-            value={{
-                ...this.state,
-                getActivities: this.getActivities
-            }}>
-                {this.props.children}
-            </ActivityContext.ServiceProvider>
+            <ActivityContext.Provider
+                value={{
+                    ...this.state,
+                    getActivities: this.getActivities
+                }}>
+                    {this.props.children}
+            </ActivityContext.Provider>
         )
     }
 }
 
 export default ServiceProvider;
 
-export const withActvities = C => props => (
+export const withActivities = C => props => (
     <ActivityContext.Consumer>
         { value => <C {...value} {...props} /> }
     </ActivityContext.Consumer>

@@ -1,0 +1,36 @@
+*{
+    margin: 0; 
+}
+
+header{
+    background: #35424A;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: magenta 3px solid;
+    font-size: 15pt;
+}
+
+header .hightlight, header .current a{
+    color: magenta;
+    font-weight: bold;
+}
+
+content{
+    font-size: 20pt;
+    color: black;
+}
+
+container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color: magenta;
+    background-color:#35424A;
+    text-align: center;
+  }

@@ -15,9 +15,10 @@ class TodoProvider extends Component {
     }
 
     getTodos = () => {
-        let userData;
-        axios.get('https://api.vschool.io/' + userData +/todo').then((response)=> {
-            this.setState({todos: response.data})
+        let userData; // this is equal to form data
+        // axios.get('https://api.vschool.io/marcus/todo').then((response)=> {
+        //     this.setState({todos: response.data})
+        axios.get(`https://financialmodelingprep.com/api/v3/company/profile/${userData}')
         })
     }
 

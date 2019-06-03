@@ -3,8 +3,8 @@ import './styles.css'
 
 const Footer = () => {
     return(
-        <div className='footer'>
-
+        <div className='base'>
+        <p>Tings, Copyright &copy; 2019</p>
         </div>
     )
 }

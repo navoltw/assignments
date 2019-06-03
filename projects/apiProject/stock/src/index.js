@@ -2,12 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import { BrowserRouter } from 'react-router-dom'
-import ServiceProvider from './ServiceProvider'
+import './styles.css'
+import Provider from './ServiceProvider'
 
 ReactDOM.render(
-    <ServiceProvider>
+    <Provider >
         <BrowserRouter>
             <App /> 
         </BrowserRouter>
-    </ServiceProvider> 
+    </Provider> 
     , document.getElementById('root'))

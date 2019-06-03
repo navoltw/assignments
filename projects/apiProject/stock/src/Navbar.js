@@ -4,16 +4,18 @@ import './styles.css'
 
 const Navbar = () => {
     return(
-        <div className='header'>
-            <h1><span class='highlight'>Tings</span>To Do</h1>
+        <>
+        <header className='header'>
+            <h1><span class='highlight' style={{color: 'black'}}>Tings</span></h1>
             <nav>
                 <ul>
                 <Link to='/Home'>Home</Link>
-                <Link to='/Tings'>Tings</Link>
+                <Link to='/Tings' class='current'>Tings</Link>
                 <Link to='/About'>About</Link>
                 </ul>
             </nav>
-        </div>
+        </header>
+        </>
     )
 }
 
