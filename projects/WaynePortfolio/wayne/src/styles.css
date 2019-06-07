@@ -1,0 +1,53 @@
+
+.container{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+    height: 80%;
+}
+header{
+    background: #35424A;
+    color: magenta;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: magenta 3px solid;
+    font-size: 15pt;
+}
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+
+header #branding{
+    float:left;
+}
+  
+header #branding h1{
+    margin:0;
+}
+header a:hover{
+    color: magenta;
+    font-weight:bold;
+  }
+
+header nav{
+    float:right;
+    margin-top:10px;
+  }
+
+header .hightlight, header .current a{
+    color: magenta;
+    font-weight: bold;
+}
+
+header h1{
+    font-family: 'Roboto'
+}

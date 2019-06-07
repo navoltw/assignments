@@ -9,19 +9,19 @@ const About = () => {
         <section id="main">
             <div class="container">
                 <article id="main-col">
-                    <h1 class="page-title">About Us</h1>
+                    <h1 class="page-title">About</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna. Nam eget eros non orci consectetur congue at ac augue. Proin eget arcu in enim feugiat ultricies. Curabitur maximus metus nec metus pretium viverra at et orci. Integer hendrerit ante ut placerat cursus.
+                        This site was developed using react. Utilizing the Bored API
                     </p>
                     <p class="dark">
-                    Aliquam eget pharetra diam. Nulla placerat lorem at turpis tempor, vel ultrices dui tincidunt. Proin quis egestas lorem. Mauris vehicula lectus odio, sit amet dictum justo feugiat a. Praesent id dictum lacus. Sed ullamcorper id erat ut dictum. Fusce porttitor lorem sapien, in aliquet sapien convallis et. Donec nec mauris nulla. Curabitur cursus semper odio, et hendrerit ante. Nunc at cursus ante. Maecenas gravida ligula ut efficitur suscipit. Nulla id turpis varius, pretium nunc sed, fermentum sem. Sed lacinia nunc non interdum pellentesque.
+                    Its easy to say this site was a fluke and maybe it was. But a fluke is one of the most common fish in the sea. If you go fishing for a fluke, chances are you'll catch one.
                     </p>
                 </article>
 
             <aside id="sidebar">
                 <div class="dark">
-                    <h3>What We Do</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna</p>
+                    <h3>What Tings does</h3>
+                    <p>It gives you tings to do. </p>
                 </div>
             </aside>
             </div>

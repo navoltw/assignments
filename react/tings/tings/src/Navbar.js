@@ -9,14 +9,14 @@ const Navbar = () => {
             <div class="container">
                 <div id="branding">
                     <h1><span class="highlight">Tings</span></h1>
-            </div>
-            <nav>
-                <ul>
-                <li><Link to='/Home'>Home</Link></li>
-                <li><Link to='/Tings' class='current'>Tings</Link></li>
-                <li><Link to='/About'>About</Link></li>
-                </ul>
-            </nav>
+                </div>
+                <nav>
+                    <ul>
+                        <li><Link to='/Home'>Home</Link></li>
+                        <li><Link to='/Tings' class='current'>Tings</Link></li>
+                        <li><Link to='/About'>About</Link></li>
+                    </ul>
+                </nav>
             </div>
         </header>
         </>
