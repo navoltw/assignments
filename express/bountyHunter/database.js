@@ -4,28 +4,32 @@ const data = [
         "Last Name": "Stargazer",
         "Living": true,
         "Bounty Amount": 45,
-        "Type": "Jedi"
+        "Type": "Jedi",
+        "Id":1
     },
     {
         "fName": "Thor",
         "Last Name": "Starbrand",
         "Living": true,
         "Bounty Amount": 15,
-        "Type": "Sith"
+        "Type": "Sith",
+        "Id":2
     },
     {
         "fName": "Fe",
         "Last Name": "Iron caster",
         "Living": true,
         "Bounty Amount": 20,
-        "Type": "Sith"
+        "Type": "Sith",
+        "Id":3
     },
     {
         "fName": "Fred",
         "Last Name": "Rodgers",
         "Living": true,
         "Bounty Amount": 45,
-        "Type": "Jedi"
+        "Type": "Jedi",
+        "Id":4
     }
 ]
 

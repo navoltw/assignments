@@ -1,5 +1,5 @@
 const express = require('express')
-const uuid = require('uuid')
+const uuid = require('uuid/v4')
 const app = express ()
 const data = require('./database')
 
@@ -18,7 +18,7 @@ app.get('./fName', (request, response) => {
 
 app.post('/fName', (request, response) => {
     const newFName = request.body
-    newFName._id = uuid()
+    newFName._id = uuid.v4()
     data.push(newFName)
     response.send(newFName)
 })
