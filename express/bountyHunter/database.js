@@ -1,11 +1,11 @@
-const data = [
+module.exports = [
     {
         "fName": "Luke",
         "Last Name": "Stargazer",
         "Living": true,
         "Bounty Amount": 45,
-        "Type": "Jedi",
-        "Id":1
+        "Type": "Jedi"
+        
     },
     {
         "fName": "Thor",
@@ -13,24 +13,23 @@ const data = [
         "Living": true,
         "Bounty Amount": 15,
         "Type": "Sith",
-        "Id":2
+        
     },
     {
         "fName": "Fe",
         "Last Name": "Iron caster",
         "Living": true,
         "Bounty Amount": 20,
-        "Type": "Sith",
-        "Id":3
+        "Type": "Sith"
+       
     },
     {
         "fName": "Fred",
         "Last Name": "Rodgers",
         "Living": true,
         "Bounty Amount": 45,
-        "Type": "Jedi",
-        "Id":4
+        "Type": "Jedi"
+        
     }
 ]
 
-module.exports = data
