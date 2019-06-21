@@ -112,7 +112,7 @@ function gameStart() {
 
             // }
              if (enemies.length === 0)
-                console.log('you did it you have won the game\n')
+                console.log('You are the best you have big muscles and a cool haircut\n')
             return
         }
     }

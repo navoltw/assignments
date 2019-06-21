@@ -87,14 +87,14 @@ const voters = [
 
 const youngVotes = voters.reduce((a, b, c, d) => {
     if (a[b.age] <= 18 && a[b.age] >= 25);
-    //If b.age fits some criteria, then a.keyName. push b
-//a[b.age] = a[b.age] + 1 || 1;
+    // If b.age fits some criteria, then a.keyName. push b
+a[b.age] = a[b.age] + 1 || 1;
    return a;
 }, {
-    //Set some default key categories with empty arrays
+    // Set some default key categories with empty arrays
 });
 
 console.log(youngVotes)
 
-//    if (a[b.age ] <= 18 && a[b.age] >= 25){
-//    }
+   if (a[b.age ] <= 18 && a[b.age] >= 25){
+   }
