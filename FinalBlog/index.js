@@ -7,6 +7,23 @@ const session = require('express-session');
 const { ExpressOIDC } = require('@okta/oidc-middleware');
 const app = express();
 const port = 3000;
+const oidc = new ExpressOIDC({
+    issuer: `${process.env.OKTA_ORG_URL}/oauth2/default`,
+    client_id: process.env.OKTA_CLIENT_ID,
+    client_secret: process.env.OKTA_CLIENT_SECRET,
+    redirect_uri: process.env.REDIRECT_URL,
+    scope: 'openid profile',
+    routes: {
+      callback: {
+        path: '/callback',
+        defaultRedirect: '/admin'
+      }
+    }
+   });
+   
+const mongoUri = "mongodb://localhost:27017/tings-video-db"
+mongoose.connect('mongodb://localhost:27017/ting-blog-db',
+    { useNewUrlParser: true })
 
 // session support is required to use ExpressOIDC
 app.use(session({
